@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Study and Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>My Study and Mood Tracker</h1>
+
+<h3>Hours Studied Today</h3>
+<input type="number" id="hours">
+<button onclick="addHours()">Add</button>
+
+<h3>How do you feel today?</h3>
+
+<select id="mood">
+    <option value="happy">Happy</option>
+    <option value="okay">Okay</option>
+    <option value="stressed">Stressed</option>
+    <option value="tired">Tired</option>
+    <option value="sad">Sad</option>
+    <option value="excited">Excited</option>
+    <option value="nervous">Nervous</option>
+</select>
+
+<button onclick="saveEntry()">Save Entry</button>
+
+<h2>Entries</h2>
+<ul id="log"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
