@@ -5,9 +5,15 @@ body {
 }
 
 button {
-    margin: 5px;
-    padding: 10px;
+    margin: 6px;
+    padding: 11px;
     background-color:#f7eee1;
     border: none;
     color: white;
 }
+
+li {
+    margin: 9px;
+    font-size: 22px;
+}
+
