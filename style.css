@@ -1,0 +1,13 @@
+body {
+    background-color:#a1beed;
+    font-family: Georgia;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color:#f7eee1;
+    border: none;
+    color: white;
+}
